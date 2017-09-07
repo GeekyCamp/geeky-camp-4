@@ -1,6 +1,6 @@
-# Introduction to Java
+# Introduction to Java (Домашна работа)
 
-## Pattern Matcher
+## 1. Pattern Matcher
 
 ### Условие
 
@@ -15,7 +15,7 @@
 | abcdef *ef    | true          |
 | abcdef a?cd*g | false         |
 
-## Крави и Бикове
+## 2. Крави и Бикове
 
 ### Условие
 

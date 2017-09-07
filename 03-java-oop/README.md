@@ -1,10 +1,14 @@
 # Java OOP
 
-## ООП Крави и Бикове
+## 1. ООП Крави и Бикове
+
+### Условие
 
 Рефакторирайте си играта на крави и бикове, така че да отговаря на принципите за добър ООП дизайн и clean code.
 
-## In-memory file system
+## 2. In-memory file system
+
+### Условие
 
 Design and implement a library for in-memory file system.
 Memory limits and thread safety may be ignored.
