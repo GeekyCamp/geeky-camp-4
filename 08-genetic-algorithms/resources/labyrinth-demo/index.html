@@ -1,0 +1,26 @@
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="index.js"></script>
+<script src="genetic.js"></script>
+<script src="statistics.js"></script>
+<script src="ui.js"></script>
+<canvas id="area" width='1600' height='1600' style='border: 1px solid black'></canvas>
+<div style='display: inline-block; vertical-align: top; font-size: 30px;'>
+  Statistics:
+  <div>Generation number: <span id="generation-number"></span></div>
+  <div>Average fitness: <span id="average-fitness"></span></div>
+  <div>Best fitness: <span id="best-fitness"></span></div>
+  <div>Best steps: <span id="best-steps"></span></div>
+  <div>Number of finished: <span id="finished-number"></span></div>
+  <div>Crossover: <span id="crossover-name"></span></div>
+  <div id="toggle-simulation" style='border: 1px solid black; width: 150px; height: 40px; cursor: pointer; background: green; color: black; text-align: center;'>
+    Show/hide
+  </div>
+  <div id="toggle-graphs" style='border: 1px solid black; width: 150px; height: 40px; cursor: pointer; background: green; color: black; text-align: center;'>
+    Show/hide
+  </div>
+</div>
+
+<div id='chart-best' style='width: 100%; height: 200px;'></div>
+<div id='chart-finished' style='width: 100%; height: 200px;'></div>
+
+Agents speed: <input type="text" value="100" id="agentSpeed" />
